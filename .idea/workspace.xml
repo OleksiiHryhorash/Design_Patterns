@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd4999e2-2d86-4dc4-bc34-5f94ba136a9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design_Patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/abstraction/AbstractApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/abstraction/apps/BankSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/abstraction/apps/GameEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/abstraction/apps/TelegramBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/developers/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/developers/real/CppDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/developers/real/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/developers/real/PythonDeveloper.java" afterDir="false" />
-    </list>
+    <list default="true" id="cd4999e2-2d86-4dc4-bc34-5f94ba136a9a" name="Changes" comment="Add first example of using pattern &quot;bridge&quot; to package bridge" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,11 +104,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685965512211</updated>
-      <workItem from="1685965512220" duration="1625000" />
+      <workItem from="1685965512220" duration="2128000" />
     </task>
+    <task id="LOCAL-00001" summary="Add first example of using pattern &quot;bridge&quot; to package bridge">
+      <created>1685967527902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685967527902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add first example of using pattern &quot;bridge&quot; to package bridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add first example of using pattern &quot;bridge&quot; to package bridge" />
   </component>
 </project>
