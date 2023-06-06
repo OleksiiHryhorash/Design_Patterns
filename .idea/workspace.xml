@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd4999e2-2d86-4dc4-bc34-5f94ba136a9a" name="Changes" comment="Add first example of using pattern &quot;bridge&quot; to package bridge">
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/vehicles/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/vehicles/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/vehicles/Track.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/real/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/real/Bmw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/real/Mercedes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d7bca184-b4d9-4b85-9537-132f9de2123c" name="Changes" comment="Add first example of using pattern &quot;bridge&quot; to package bridge">
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex1/RasterGraphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex1/VectorAdapterFromRaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex1/VectorGraphicsInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +35,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="patterns.bridge.ex2" />
       <recent name="patterns.bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.patterns.bridge.ex2.App">
+  <component name="RunManager" selected="Application.patterns.adapter.ex1.ex1.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.bridge.ex1.ex1.App" />
       <module name="Design_Patterns" />
@@ -80,6 +74,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="patterns.bridge.ex1.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="patterns.adapter.ex1.ex1.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.adapter.ex1.ex1.App" />
+      <module name="Design_Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.adapter.ex1.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.patterns.adapter.ex1.ex1.App" />
         <item itemvalue="Application.patterns.bridge.ex2.App" />
         <item itemvalue="Application.patterns.bridge.ex1.App" />
         <item itemvalue="Application.patterns.bridge.ex1.App" />
