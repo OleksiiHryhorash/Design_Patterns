@@ -1,4 +1,4 @@
-package patterns.adapter.ex2.interfaces.realizations;
+package patterns.adapter.ex2.interfaces.impl;
 
 import patterns.adapter.ex2.interfaces.Car;
 

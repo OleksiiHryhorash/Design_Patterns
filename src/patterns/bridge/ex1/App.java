@@ -4,9 +4,9 @@ import patterns.bridge.ex1.abstraction.AbstractApp;
 import patterns.bridge.ex1.abstraction.apps.BankSystem;
 import patterns.bridge.ex1.abstraction.apps.GameEngine;
 import patterns.bridge.ex1.abstraction.apps.TelegramBot;
-import patterns.bridge.ex1.developers.real.CppDeveloper;
-import patterns.bridge.ex1.developers.real.JavaDeveloper;
-import patterns.bridge.ex1.developers.real.PythonDeveloper;
+import patterns.bridge.ex1.developers.impl.CppDeveloper;
+import patterns.bridge.ex1.developers.impl.JavaDeveloper;
+import patterns.bridge.ex1.developers.impl.PythonDeveloper;
 
 public class App {
     public static void main(String[] args) {

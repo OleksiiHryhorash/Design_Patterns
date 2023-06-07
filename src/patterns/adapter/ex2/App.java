@@ -1,7 +1,7 @@
 package patterns.adapter.ex2;
 
-import patterns.adapter.ex2.interfaces.realizations.Audi;
-import patterns.adapter.ex2.interfaces.realizations.TruckMAZ;
+import patterns.adapter.ex2.interfaces.impl.Audi;
+import patterns.adapter.ex2.interfaces.impl.TruckMAZ;
 
 public class App {
     public static void main(String[] args) {

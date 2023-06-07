@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7bca184-b4d9-4b85-9537-132f9de2123c" name="Changes" comment="Add ex2 of using pattern &quot;adapter&quot;">
-      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/AdapterTrackToCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/AdapterTruckToCar.java" afterDir="false" />
+    <list default="true" id="d7bca184-b4d9-4b85-9537-132f9de2123c" name="Changes" comment="Rename packages with name &quot;realizations&quot; to &quot;impl&quot;">
+      <change afterPath="$PROJECT_DIR$/src/patterns/composite/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/composite/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/composite/interfaces/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/composite/interfaces/impl/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/composite/interfaces/impl/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/composite/interfaces/impl/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/realizations/TrackMAZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/realizations/TruckMAZ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/realizations/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/impl/Audi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/realizations/TruckMAZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/impl/TruckMAZ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/bridge/ex1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/developers/real/CppDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/bridge/ex1/developers/impl/CppDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/developers/real/JavaDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/bridge/ex1/developers/impl/JavaDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/developers/real/PythonDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/bridge/ex1/developers/impl/PythonDeveloper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/vehicles/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/vehicles/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/real/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/impl/Audi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/real/Bmw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/impl/Bmw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/real/Mercedes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/impl/Mercedes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +68,13 @@
       <recent name="patterns.bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.patterns.adapter.ex2.App">
+  <component name="RunManager" selected="Application.patterns.composite.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.bridge.ex1.ex1.App" />
+      <option name="MAIN_CLASS_NAME" value="patterns.composite.App" />
       <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.bridge.ex1.ex1.abstraction.*" />
+          <option name="PATTERN" value="patterns.composite.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,10 +149,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.patterns.composite.App" />
         <item itemvalue="Application.patterns.adapter.ex2.App" />
         <item itemvalue="Application.patterns.adapter.ex1.ex1.App" />
         <item itemvalue="Application.patterns.bridge.ex2.App" />
-        <item itemvalue="Application.patterns.bridge.ex1.App" />
         <item itemvalue="Application.patterns.bridge.ex1.App" />
       </list>
     </recent_temporary>
@@ -183,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686140964255</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rename files which contains word &quot;track&quot;. Change to &quot;truck&quot;">
+      <created>1686141783688</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686141783688</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +223,8 @@
     <MESSAGE value="Add first example of using pattern &quot;bridge&quot; to package bridge" />
     <MESSAGE value="Add ex1 of using pattern &quot;adapter&quot;" />
     <MESSAGE value="Add ex2 of using pattern &quot;adapter&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ex2 of using pattern &quot;adapter&quot;" />
+    <MESSAGE value="Rename files which contains word &quot;track&quot;. Change to &quot;truck&quot;" />
+    <MESSAGE value="Rename packages with name &quot;realizations&quot; to &quot;impl&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename packages with name &quot;realizations&quot; to &quot;impl&quot;" />
   </component>
 </project>

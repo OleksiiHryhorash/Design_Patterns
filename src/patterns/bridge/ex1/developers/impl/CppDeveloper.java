@@ -1,4 +1,4 @@
-package patterns.bridge.ex1.developers.real;
+package patterns.bridge.ex1.developers.impl;
 
 import patterns.bridge.ex1.developers.Developer;
 

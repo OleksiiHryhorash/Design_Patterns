@@ -1,4 +1,4 @@
-package patterns.bridge.ex2.models.real;
+package patterns.bridge.ex2.models.impl;
 
 import patterns.bridge.ex2.models.Model;
 

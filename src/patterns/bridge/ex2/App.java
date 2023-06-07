@@ -4,9 +4,9 @@ import patterns.bridge.ex2.abstraction.Vehicle;
 import patterns.bridge.ex2.abstraction.vehicles.Bike;
 import patterns.bridge.ex2.abstraction.vehicles.Car;
 import patterns.bridge.ex2.abstraction.vehicles.Truck;
-import patterns.bridge.ex2.models.real.Audi;
-import patterns.bridge.ex2.models.real.Bmw;
-import patterns.bridge.ex2.models.real.Mercedes;
+import patterns.bridge.ex2.models.impl.Audi;
+import patterns.bridge.ex2.models.impl.Bmw;
+import patterns.bridge.ex2.models.impl.Mercedes;
 
 public class App {
     public static void main(String[] args) {
