@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7bca184-b4d9-4b85-9537-132f9de2123c" name="Changes" comment="Add first example of using pattern &quot;bridge&quot; to package bridge">
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex1/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex1/RasterGraphics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex1/VectorAdapterFromRaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex1/VectorGraphicsInterface.java" afterDir="false" />
+    <list default="true" id="d7bca184-b4d9-4b85-9537-132f9de2123c" name="Changes" comment="Add ex1 of using pattern &quot;adapter&quot;">
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/AdapterTrackToCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/CarWash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/Track.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/TrackMAZ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,7 @@
       <recent name="patterns.bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.patterns.adapter.ex1.ex1.App">
+  <component name="RunManager" selected="Application.patterns.adapter.ex2.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.bridge.ex1.ex1.App" />
       <module name="Design_Patterns" />
@@ -94,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="patterns.adapter.ex2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.adapter.ex2.App" />
+      <module name="Design_Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.adapter.ex2.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="patterns.bridge.ex1.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.bridge.ex1.App" />
       <module name="Design_Patterns" />
@@ -122,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.patterns.adapter.ex2.App" />
         <item itemvalue="Application.patterns.adapter.ex1.ex1.App" />
         <item itemvalue="Application.patterns.bridge.ex2.App" />
         <item itemvalue="Application.patterns.bridge.ex1.App" />
         <item itemvalue="Application.patterns.bridge.ex1.App" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685967723605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add ex1 of using pattern &quot;adapter&quot;">
+      <created>1686052407231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686052407231</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add first example of using pattern &quot;bridge&quot; to package bridge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add first example of using pattern &quot;bridge&quot; to package bridge" />
+    <MESSAGE value="Add ex1 of using pattern &quot;adapter&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ex1 of using pattern &quot;adapter&quot;" />
   </component>
 </project>
