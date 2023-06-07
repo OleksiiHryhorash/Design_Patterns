@@ -1,5 +1,5 @@
 package patterns.adapter.ex2.interfaces;
 
-public interface Track {
+public interface Truck {
     void washTrack();
 }

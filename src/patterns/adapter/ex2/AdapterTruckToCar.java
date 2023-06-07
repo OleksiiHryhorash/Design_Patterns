@@ -1,13 +1,13 @@
 package patterns.adapter.ex2;
 
 import patterns.adapter.ex2.interfaces.Car;
-import patterns.adapter.ex2.interfaces.Track;
+import patterns.adapter.ex2.interfaces.Truck;
 
-public class AdapterTrackToCar implements Car {
+public class AdapterTruckToCar implements Car {
 
-    private final Track track;
+    private final Truck track;
 
-    public AdapterTrackToCar(Track track) {
+    public AdapterTruckToCar(Truck track) {
         this.track = track;
     }
 

@@ -1,8 +1,8 @@
 package patterns.adapter.ex2.interfaces.realizations;
 
-import patterns.adapter.ex2.interfaces.Track;
+import patterns.adapter.ex2.interfaces.Truck;
 
-public class TrackMAZ implements Track {
+public class TruckMAZ implements Truck {
     @Override
     public void washTrack() {
         System.out.println("MAZ is washing...");

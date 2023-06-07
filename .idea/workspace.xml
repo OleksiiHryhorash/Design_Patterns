@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7bca184-b4d9-4b85-9537-132f9de2123c" name="Changes" comment="Add ex1 of using pattern &quot;adapter&quot;">
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/AdapterTrackToCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/CarWash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/Track.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/TrackMAZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d7bca184-b4d9-4b85-9537-132f9de2123c" name="Changes" comment="Add ex2 of using pattern &quot;adapter&quot;">
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/AdapterTrackToCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/AdapterTruckToCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/realizations/TrackMAZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/realizations/TruckMAZ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/vehicles/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/vehicles/Truck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686052407231</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add ex2 of using pattern &quot;adapter&quot;">
+      <created>1686140964255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686140964255</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +203,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add first example of using pattern &quot;bridge&quot; to package bridge" />
     <MESSAGE value="Add ex1 of using pattern &quot;adapter&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ex1 of using pattern &quot;adapter&quot;" />
+    <MESSAGE value="Add ex2 of using pattern &quot;adapter&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ex2 of using pattern &quot;adapter&quot;" />
   </component>
 </project>
