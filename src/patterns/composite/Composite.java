@@ -20,4 +20,5 @@ public class Composite implements Shape {
             component.draw();
         }
     }
+
 }
