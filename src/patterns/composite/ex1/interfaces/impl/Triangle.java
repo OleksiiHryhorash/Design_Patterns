@@ -1,6 +1,6 @@
-package patterns.composite.interfaces.impl;
+package patterns.composite.ex1.interfaces.impl;
 
-import patterns.composite.interfaces.Shape;
+import patterns.composite.ex1.interfaces.Shape;
 
 public class Triangle implements Shape {
     @Override

@@ -1,9 +1,9 @@
-package patterns.composite;
+package patterns.composite.ex1;
 
-import patterns.composite.interfaces.Shape;
-import patterns.composite.interfaces.impl.Circle;
-import patterns.composite.interfaces.impl.Square;
-import patterns.composite.interfaces.impl.Triangle;
+import patterns.composite.ex1.interfaces.Shape;
+import patterns.composite.ex1.interfaces.impl.Circle;
+import patterns.composite.ex1.interfaces.impl.Square;
+import patterns.composite.ex1.interfaces.impl.Triangle;
 
 public class App {
     public static void main(String[] args) {

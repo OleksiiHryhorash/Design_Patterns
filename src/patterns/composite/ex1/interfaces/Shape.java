@@ -1,4 +1,4 @@
-package patterns.composite.interfaces;
+package patterns.composite.ex1.interfaces;
 
 public interface Shape {
     void draw();

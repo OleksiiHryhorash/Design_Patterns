@@ -1,6 +1,6 @@
-package patterns.composite;
+package patterns.composite.ex1;
 
-import patterns.composite.interfaces.Shape;
+import patterns.composite.ex1.interfaces.Shape;
 
 import java.util.ArrayList;
 import java.util.List;
