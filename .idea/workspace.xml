@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7bca184-b4d9-4b85-9537-132f9de2123c" name="Changes" comment="Add package &quot;composite&quot;, and add ex1 for this package">
-      <change afterPath="$PROJECT_DIR$/src/patterns/composite/ex2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/composite/ex2/AvgBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/composite/ex2/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/composite/ex2/LargeBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/composite/ex2/SmallBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/composite/ex2/Stock.java" afterDir="false" />
+    <list default="true" id="d7bca184-b4d9-4b85-9537-132f9de2123c" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex1/JavaDev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex1/SeniorJavaDev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex1/TeamLeadJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex1/interfaces/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex1/interfaces/impl/DecoratorDev.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/composite/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/composite/ex1/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/composite/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/composite/ex1/Composite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/composite/interfaces/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/composite/ex1/interfaces/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/composite/interfaces/impl/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/composite/ex1/interfaces/impl/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/composite/interfaces/impl/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/composite/ex1/interfaces/impl/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/composite/interfaces/impl/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/composite/ex1/interfaces/impl/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +58,7 @@
       <recent name="patterns.bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.patterns.composite.ex2.App">
+  <component name="RunManager" selected="Application.patterns.decorator.ex1.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.composite.ex1.ex1.App" />
       <module name="Design_Patterns" />
@@ -117,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="patterns.bridge.ex2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.bridge.ex2.App" />
-      <module name="Design_Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patterns.bridge.ex2.abstraction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="patterns.composite.ex2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.composite.ex2.App" />
       <module name="Design_Patterns" />
@@ -143,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="patterns.decorator.ex1.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.decorator.ex1.App" />
+      <module name="Design_Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.decorator.ex1.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.patterns.decorator.ex1.App" />
         <item itemvalue="Application.patterns.composite.ex2.App" />
         <item itemvalue="Application.patterns.composite.App" />
         <item itemvalue="Application.patterns.adapter.ex2.App" />
         <item itemvalue="Application.patterns.adapter.ex1.ex1.App" />
-        <item itemvalue="Application.patterns.bridge.ex2.App" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686144133391</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add ex2 to package &quot;composite&quot;">
+      <created>1686237331437</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686237331437</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initial commit">
+      <created>1686237359815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686237359815</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +251,9 @@
     <MESSAGE value="Rename files which contains word &quot;track&quot;. Change to &quot;truck&quot;" />
     <MESSAGE value="Rename packages with name &quot;realizations&quot; to &quot;impl&quot;" />
     <MESSAGE value="Add package &quot;composite&quot;, and add ex1 for this package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add package &quot;composite&quot;, and add ex1 for this package" />
+    <MESSAGE value="Add" />
+    <MESSAGE value="Add ex2 to package &quot;composite&quot;" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
