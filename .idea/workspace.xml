@@ -4,14 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7bca184-b4d9-4b85-9537-132f9de2123c" name="Changes" comment="Add ex1 to package &quot;decorator&quot;">
-      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex2/FileBufferedReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex2/FileDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex2/FileInputReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex2/FileStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ex2/FileStreamReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d7bca184-b4d9-4b85-9537-132f9de2123c" name="Changes" comment="Add ex2 to package &quot;decorator&quot;, example with file streams">
+      <change afterPath="$PROJECT_DIR$/src/patterns/structural/adapter/ex2/CarWash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/structural/adapter/ex2/interfaces/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/structural/adapter/ex2/interfaces/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex1/interfaces/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex1/interfaces/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex2/interfaces/FileStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/adapter/ex1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex1/RasterGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/adapter/ex1/RasterGraphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex1/VectorAdapterFromRaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/adapter/ex1/VectorAdapterFromRaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex1/VectorGraphicsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/adapter/ex1/VectorGraphicsInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/AdapterTruckToCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/adapter/ex2/AdapterTruckToCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/adapter/ex2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/CarWash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/Truck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/impl/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/adapter/ex2/interfaces/impl/Audi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/adapter/ex2/interfaces/impl/TruckMAZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/adapter/ex2/interfaces/impl/TruckMAZ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/abstraction/AbstractApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex1/abstraction/AbstractApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/abstraction/apps/BankSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex1/abstraction/apps/BankSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/abstraction/apps/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex1/abstraction/apps/GameEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/abstraction/apps/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex1/abstraction/apps/TelegramBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/developers/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex1/developers/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/developers/impl/CppDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex1/developers/impl/CppDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/developers/impl/JavaDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex1/developers/impl/JavaDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex1/developers/impl/PythonDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex1/developers/impl/PythonDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex2/abstraction/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/vehicles/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex2/abstraction/vehicles/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex2/abstraction/vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/abstraction/vehicles/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex2/abstraction/vehicles/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex2/models/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/impl/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex2/models/impl/Audi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/impl/Bmw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex2/models/impl/Bmw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/bridge/ex2/models/impl/Mercedes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/bridge/ex2/models/impl/Mercedes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex1/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex1/Composite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex1/interfaces/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex1/interfaces/impl/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex1/interfaces/impl/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex1/interfaces/impl/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex1/interfaces/impl/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex1/interfaces/impl/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex1/interfaces/impl/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex2/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex2/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex2/interfaces/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex2/interfaces/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex2/interfaces/impl/AvgBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex2/interfaces/impl/AvgBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex2/interfaces/impl/LargeBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex2/interfaces/impl/LargeBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/composite/ex2/interfaces/impl/SmallBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/composite/ex2/interfaces/impl/SmallBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex1/JavaDev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex1/JavaDev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex1/SeniorJavaDev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex1/SeniorJavaDev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex1/TeamLeadJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex1/TeamLeadJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex1/interfaces/Developer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex1/interfaces/impl/DecoratorDev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex1/interfaces/impl/DecoratorDev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex2/FileBufferedReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex2/FileBufferedReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex2/FileDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex2/FileDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex2/interfaces/FileStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex2/interfaces/impl/FileInputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex2/interfaces/impl/FileInputReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ex2/interfaces/impl/FileStreamReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/structural/decorator/ex2/interfaces/impl/FileStreamReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +111,13 @@
       <recent name="patterns.bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.patterns.decorator.ex2.App">
+  <component name="RunManager" selected="Application.patterns.structural.adapter.decorator.ex2.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.composite.ex1.ex1.App" />
       <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.composite.ex1.ex1.interfaces.*" />
+          <option name="PATTERN" value="patterns.structural.adapter.composite.ex1.ex1.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="patterns.adapter.ex2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.adapter.ex2.App" />
+    <configuration name="patterns.structural.adapter.adapter.ex1.ex2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.structural.adapter.adapter.ex1.ex2.App" />
       <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.adapter.ex2.interfaces.*" />
+          <option name="PATTERN" value="patterns.structural.adapter.adapter.ex1.ex2.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="patterns.composite.ex2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.composite.ex2.App" />
+    <configuration name="patterns.structural.adapter.composite.ex2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.structural.adapter.composite.ex2.App" />
       <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.composite.ex2.interfaces.*" />
+          <option name="PATTERN" value="patterns.structural.structural.adapter.composite.ex2.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="patterns.decorator.ex1.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.decorator.ex1.App" />
+    <configuration name="patterns.structural.adapter.decorator.ex1.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.structural.adapter.decorator.ex1.App" />
       <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.decorator.ex1.interfaces.*" />
+          <option name="PATTERN" value="patterns.structural.structural.adapter.decorator.ex1.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="patterns.decorator.ex2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.decorator.ex2.App" />
+    <configuration name="patterns.structural.adapter.decorator.ex2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.structural.adapter.decorator.ex2.App" />
       <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.decorator.ex2.interfaces.*" />
+          <option name="PATTERN" value="patterns.structural.structural.adapter.decorator.ex2.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.patterns.decorator.ex2.App" />
-        <item itemvalue="Application.patterns.decorator.ex1.App" />
-        <item itemvalue="Application.patterns.composite.ex2.App" />
+        <item itemvalue="Application.patterns.structural.adapter.decorator.ex2.App" />
+        <item itemvalue="Application.patterns.structural.adapter.decorator.ex1.App" />
+        <item itemvalue="Application.patterns.structural.adapter.composite.ex2.App" />
         <item itemvalue="Application.patterns.composite.App" />
-        <item itemvalue="Application.patterns.adapter.ex2.App" />
+        <item itemvalue="Application.patterns.structural.adapter.adapter.ex1.ex2.App" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686314015140</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add ex2 to package &quot;decorator&quot;, example with file streams">
+      <created>1686488186533</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686488186533</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +322,7 @@
     <MESSAGE value="Add ex2 to package &quot;composite&quot;" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add ex1 to package &quot;decorator&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ex1 to package &quot;decorator&quot;" />
+    <MESSAGE value="Add ex2 to package &quot;decorator&quot;, example with file streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ex2 to package &quot;decorator&quot;, example with file streams" />
   </component>
 </project>
